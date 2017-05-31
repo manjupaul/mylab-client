@@ -1,6 +1,15 @@
 {
   "orders": [
-    { "id": 1, "createdOn": "05/05/2017", "author": "typicode" }
+    { "id": "1", "createdOn": "05/05/2017", "author": "typicode" }
+  ],
+  "specimens": [
+    { "id": "1", "barcode":"1234-a43be-ff43-89cd", "createdOn": "05/05/2017", "orderId": "1" },
+    { "id": "2", "barcode":"1234-a43be-ff43-3232", "createdOn": "08/02/2017", "orderId": "1" }
+  ],
+  "shipments": [
+    { "id": "1", "createdOn": "05/05/2017", "specimenId":"1", "orderId": "1" },
+    { "id": "1", "createdOn": "05/05/2017", "specimenId":"2", "orderId": "1" }
   ]
+
 
 }
