@@ -1,6 +1,6 @@
 {
   "orders": [
-    { "id": "1", "createdOn": "05/05/2017", "author": "typicode" }
+    { "id": "1", "createdOn": "05/05/2017", "clinicName": "NovaentHealth", "contactNo": "7035478888" }
   ],
   "specimens": [
     { "id": "1", "barcode":"1234-a43be-ff43-89cd", "createdOn": "05/05/2017", "orderId": "1" },
